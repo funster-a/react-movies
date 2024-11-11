@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ShowsOpenpage = () => {
+const Show = () => {
   return (
     <div>
       Shows Openpage
@@ -8,4 +8,4 @@ const ShowsOpenpage = () => {
   )
 }
 
-export default ShowsOpenpage
+export default Show

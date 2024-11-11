@@ -2,13 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
-import App from './App.tsx'
 import Homepage from './pages/Homepage.tsx'
 import Loginpage from './pages/Loginpage.tsx'
-import MoviesOpenpage from './pages/MoviesOpenpage.tsx'
+import Movie from './pages/Movie.tsx'
 import MoviesShowspage from './pages/MoviesShowspage.tsx'
-import ShowsOpenpage from './pages/ShowsOpenpage.tsx'
-import Subcriptionpage from './pages/Subcriptionpage.tsx'
+import Show from './pages/Show.tsx'
+import Subscriptionpage from './pages/Subscriptionpage.tsx'
 import Supportpage from './pages/Supportpage.tsx'
 
 const router = createBrowserRouter([
@@ -21,20 +20,20 @@ const router = createBrowserRouter([
     element: <Loginpage />
   },
   {
-    path: '/moviesopen',
-    element: <MoviesOpenpage />
+    path: '/movieId',
+    element: <Movie />
   },
   {
     path: '/moviesshows',
     element: <MoviesShowspage />
   },
   {
-    path: '/showsopen',
-    element: <ShowsOpenpage />
+    path: '/showId',
+    element: <Show />
   },
   {
     path: '/subscription',
-    element: <Subcriptionpage />
+    element: <Subscriptionpage />
   },
   {
     path: '/support',

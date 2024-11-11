@@ -1,9 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const MoviesShowspage = () => {
   return (
     <div>
-      Movies Shows page
+      <Header />
+      
     </div>
   )
 }

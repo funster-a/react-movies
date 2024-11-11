@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
 
-const Supportpage = () => {
+const Subscriptionpage = () => {
   return (
     <div>
       <Header />
-      
       
     </div>
   )
 }
 
-export default Supportpage
+export default Subscriptionpage
