@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    color: white;
+    width: 100vw;
+    min-height: 120px;
+    padding: 0 162px;
+    gap: 30px;
+    border-radius: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    background-color: #0F0F0F;
+    padding: 10px;  
+}
+
+.menu a {
+    padding: 14px 24px;
+    color: #BFBFBF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.active{
+    background-color: #1A1A1A;
+}
+
+.active>a {
+    color: white;
+}
+
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+}
