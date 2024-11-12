@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import MyIcon from './MyIcon'
-import MyBell from "./MyBell"
+import MyIcon from '../MyIcon'
+import MyBell from "../MyBell"
 import s from './Header.module.css'
-import MyLogo from "./MyLogo"
+import MyLogo from "../MyLogo"
 
 const Header = () => {
   return (
