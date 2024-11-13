@@ -3,13 +3,13 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './reset.css'
 import './index.css'
-import Homepage from './pages/Homepage.tsx'
-import Loginpage from './pages/Loginpage.tsx'
+import Homepage from './pages/Home.tsx'
+import Loginpage from './pages/Login.tsx'
 import Movie from './pages/Movie.tsx'
 import MoviesShowspage from './pages/MoviesShowspage.tsx'
-import Show from './pages/Show.tsx'
-import Subscriptionpage from './pages/Subscriptionpage.tsx'
-import Supportpage from './pages/Supportpage.tsx'
+import Show from './pages/Shows.tsx'
+import Subscriptionpage from './pages/Subscription.tsx'
+import Supportpage from './pages/Support.tsx'
 
 const router = createBrowserRouter([
   {
