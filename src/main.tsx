@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     element: <Loginpage />
   },
   {
-    path: '/movieId',
+    path: '/movie/:id',
     element: <Movie />
   },
   {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     element: <MoviesShowspage />
   },
   {
-    path: '/showId',
+    path: '/show/:id',
     element: <Show />
   },
   {
